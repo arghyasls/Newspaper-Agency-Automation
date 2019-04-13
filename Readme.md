@@ -7,6 +7,7 @@
 - The system should also print for the news agent the information regarding who received what publications and a summary information of the current month. 
 - At the beginning of every month bills are printed by the system to be delivered to the customers. These bills should be computed by the system automatically and should include the publication type, the number of copies delivered during the month, and the cost for these.
 - The customers may ask for stopping the deliveries to them for certain periods when they go out of station. 
-- Customers may request to subscribe new newspapers/ magazines, modify their subscription list, or stop their subscription altogether. • Customers usually pay their monthly dues either by cheques or cash. Once the cheque number or cash received is entered in the system, receipt for the customer should be printed.
+- Customers may request to subscribe new newspapers/ magazines, modify their subscription list, or stop their subscription altogether.
+- Customers usually pay their monthly dues either by cheques or cash. Once the cheque number or cash received is entered in the system, receipt for the customer should be printed.
 - If any customer has any outstanding due for more than one month, a polite reminder message is printed for him and his subscription is discontinued if his dues remain outstanding for periods of more than two months. 
 - The software should compute and print out the amount payable to each delivery boy. Each delivery boy gets 2.5% of the value of the publications delivered by him.
