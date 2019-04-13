@@ -1,0 +1,242 @@
+﻿@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        text-decoration: none;
+        text-shadow: black 3px 2px 0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+        .Login form {
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            text-decoration: none;
+            text-shadow: black 3px 2px 0;
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0 auto;
+            max-width: 320px;
+        }
+}
+#red-form {
+    margin: 10px auto;
+    
+   
+}
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+}
+
+li:last-child a {
+    margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+    background: yellow;
+}
+
+a:hover {
+    background: orange;
+}
+
+a:active {
+
+    background: red;
+    color: white;
+}
+input {
+    border-radius: 5px;
+    font-family: "Helvetica Neue";
+    font-size:14px;
+    padding: 15px 0;
+    width: 100%;
+}
+#y {
+    padding: 20px 80px;
+    background: #eee url(../images/o.jpg);
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+
+body {
+    padding: 20px 80px;
+    background: #eee url(../images/k.jpg);
+}
+#t {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-shadow:white 3px 2px 0;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 320px;
+}
+#tn {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-shadow: black 3px 2px 0;
+    font-size: 20px;
+    font-weight: 700;
+    
+    max-width: 320px;
+}
+#bck {
+    background: #525252; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #525252, #3d72b4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #525252, #3d72b4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+    height: 25em;
+    width: 30em;
+    border: 1px dotted black;
+    border-radius: 10px;
+    margin-top:auto;
+    padding-top:4em;
+    padding-bottom:2em;
+    padding-left:2em;
+    padding-right:2em;
+}
+#h {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 39px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    border: 4px solid #6323d7;
+    border-radius: 10PX;
+    line-height: 1;
+    text-align: center;
+    margin-left: 36px;
+    margin-right: 3px;
+}
+#logo {
+    font-family: 'Open Sans', sans-serif;
+    color: royalblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 1;
+    text-shadow: black 3px 2px 0;
+    position: relative;
+}
+
+    #logo:after {
+       
+        position: absolute;
+        left: 8px;
+        top: 32px;
+    }
+
+    #logo:after {
+        /*background: url(../images/columbus_dispatch-1.jpg) repeat;*/
+        background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 15%, #555 15%, #555 25%, transparent 25%, transparent 25%, #555 5%);
+        background-size: 4px 4px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        z-index: -10;
+        display: block;
+        text-shadow: none;
+    }
+
+#menu {
+    width: 1090px;
+    height: 42px;
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 25px 10px;
+    border-top: 4px double #AAA;
+    border-bottom: 4px double #AAA;
+    position: relative;
+    text-align: center;
+}
+
+    #menu li {
+        display: inline-block;
+        width: 173px;
+        margin: 0 10px;
+        position: relative;
+        -webkit-transform: skewy(-3deg);
+        -webkit-backface-visibility: hidden;
+        -webkit-transition: 200ms all;
+    }
+
+        #menu li a {
+            text-transform: uppercase;
+            font-family: 'Squada One', cursive;
+            font-weight: 800;
+            display: block;
+            background: #FFF;
+            padding: 2px 10px;
+            color: #333;
+            font-size: 35px;
+            text-align: center;
+            text-decoration: none;
+            position: relative;
+            z-index: 1;
+            text-shadow: 1px 1px 0px #FFF, 2px 2px 0px #999, 3px 3px 0px #FFF;
+            background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,.05) 100%);
+            -webkit-transition: 1s all;
+            background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, rgba(0,0,0,.15) 25%, rgba(0,0,0,.15) 50%, transparent 50%, transparent 75%, rgba(0,0,0,.15) 75%);
+            background-size: 4px 4px;
+            box-shadow: 0 0 0 1px rgba(0,0,0,.4) inset, 0 0 20px -5px rgba(0,0,0,.4), 0 0 0px 3px #FFF inset;
+        }
+
+        #menu li:hover {
+            width: 203px;
+            margin: 0 -5px;
+        }
+
+    #menu a:hover {
+        color: #d90075;
+    }
+
+    #menu li:after,
+    #menu li:before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 100%;
+        background: #BBB;
+        -webkit-transform: skewY(8deg);
+        x-index: -3;
+        border-radius: 4px;
+    }
+
+    #menu li:after {
+        background-image: -webkit-linear-gradient(left, transparent 0%, rgba(0,0,0,.4) 100%);
+        right: 0;
+        top: -4px;
+    }
+
+    #menu li:before {
+        left: 0;
+        bottom: -4px;
+        background-image: -webkit-linear-gradient(right, transparent 0%, rgba(0,0,0,.4) 100%);
+    }
